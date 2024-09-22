@@ -1,0 +1,25 @@
+div.outerbox{
+    background-color: rgb(239, 239, 239);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.outerbox .collect{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+div.outerbox .collect .firstbox,
+div.outerbox .collect .secondbox,
+div.outerbox .collect .thirdbox{
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
